@@ -23,7 +23,7 @@ name: Dionisis Kontozidis
 title: Graduate Student
 email: p16kont@ionio.gr
 website: dionisiskon.github.io/onlinecv
-CV: https://github.com/dionisiskon/modern-resume-theme/raw/gh-pages/cv.pdf
+CV: cv.pdf
 
 # Dark Mode (true/false/never)
 darkmode: false
