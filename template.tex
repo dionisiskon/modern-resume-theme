@@ -109,8 +109,8 @@ $for(content)$
 	$for(content.content)$
 		\subsection*{$content.content.title$}
 		$content.content.description$
-		\IfStrEq{$content.title$}{A Little More About Me}{$content.content$}
 	$endfor$
+	\IfStrEq{$content.title$}{A Little More About Me}{$content.content$}
 $endfor$
 	
 \end{document}
