@@ -103,13 +103,13 @@ $endfor$
 $about_content$
 
 $for(content)$
-	\IfSubStr{$content.title$}{Educ}{\newpage}
+	\IfStrEq{$content.title$}{Education}{\newpage}
 	
 	\section*{$content.title$}
 	$for(content.content)$
-	\subsection*{$content.content.title$}
-	$content.content.description$
-	\IfSubStr{$content.title$}{Little}{$content.content$}
+		\subsection*{$content.content.title$}
+		$content.content.description$
+		\IfStrEq{$content.title$}{A Little More About Me}{$content.content$}
 	$endfor$
 $endfor$
 	
