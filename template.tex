@@ -82,21 +82,22 @@ $endif$
 \begin{document}
 \begin{centering}
 \AddToShipoutPicture*
-    {\put(390,590){\includegraphics[width=4cm,height=4cm]{images/32637139.jpeg}}}
+    {\put(100,590){\includegraphics[width=4cm,height=4cm]{images/32637139.jpeg}}}
 \end{centering}
-{\LARGE $name$}\\[.2cm]
+\hfill {\LARGE $name$}\\[.2cm]
 
 $if(urls)$
-\begin{multicols}{2}
+\hfill \begin{multicols}{2}
 $endif$
 
 $for(address)$
-$address$\\
+\hspace*{\fill} $address$\\
 $endfor$
 
 \vspace{-10pt}
 
-\href{mailto:$email$}{$email$}\\
+\hfill \href{mailto:$email$}{$email$}\\
+\vspace{20pt}
 
 \section*{About Me}
 $about_content$
