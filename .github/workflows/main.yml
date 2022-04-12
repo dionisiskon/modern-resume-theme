@@ -1,9 +1,6 @@
 name: Document Conversion
 
-on: 
-  push:
-    paths:
-      "_config.yml"
+on: push
 
 jobs:
   convert_via_pandoc:
