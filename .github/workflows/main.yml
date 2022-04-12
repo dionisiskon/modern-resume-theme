@@ -39,4 +39,4 @@ jobs:
         build_dir: ./
         keep_history: true
       env:
-        GH_PAT: ${{ secrets._TOKEN }} # default secret for auth
+        GH_PAT: ${{ secrets.TOKEN }} # default secret for auth
