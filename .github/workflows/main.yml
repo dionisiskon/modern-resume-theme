@@ -3,8 +3,8 @@ name: Document Conversion
 on: 
   push:
     paths:
-      "_config.yml"
-
+      - "_config.yml"
+      - "template.tex"
 jobs:
   convert_via_pandoc:
     name: Convert via Pandoc
