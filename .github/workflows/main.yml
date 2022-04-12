@@ -31,7 +31,7 @@ jobs:
         name: cv.pdf
         path: ./
 
-    - name: Deploy to Github pages
+    - name: [skip ci] Deploy to Github pages
       uses: crazy-max/ghaction-github-pages@v2
       # action to deploy to GitHub Pages
       with:
