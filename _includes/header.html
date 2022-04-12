@@ -123,7 +123,7 @@
       {%- endif -%}
       {%- if site.CV -%}
         <p>
-          {{ site.CV_title | default: "CV" }}: {% include a.html href=site.CV %}{{ site.CV | escape }}</a>
+          {{ site.CV_title | default: "CV" }}: {% include a.html href=site.CV download=CV %}{{ site.CV | escape }}</a>
         </p>
       {%- endif -%}
     </div>
