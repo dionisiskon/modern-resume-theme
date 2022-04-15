@@ -7,10 +7,7 @@ mainfont: lmsans10-regular.otf
 fontsize: 10pt
 lang: en-us
 geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
-address: 
-- Mitropoleos 42
-- 61100 Kilkis
-- Greece
+
 # Site
 repository: dionisiskon/resume-theme
 favicon: images/favicon.ico
