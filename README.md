@@ -1,1 +1,2 @@
-![status](https://github.com/dionisiskon/modern-resume-theme/actions/workflows/main.yml/badge.svg?branch=gh-pages&service=github)
+![status](https://github.com/dionisiskon/modern-resume-theme/workflows/Document%20Conversion/badge.svg)
+
