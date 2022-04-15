@@ -100,7 +100,10 @@ $endif$
 
 \vspace{-10pt}
 
-\hfill \href{mailto:$email$}{$email$}\\
+$if(phone)$
+\hfill \href Phone: $phone$\\
+$endif$
+\hfill \href E-mail:{mailto:$email$}{$email$}\\
 \vspace{35pt}
 
 \section*{About Me}
