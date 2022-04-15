@@ -90,9 +90,11 @@ $if(urls)$
 \hfill \begin{multicols}{2}
 $endif$
 
-$for(address)$
-\hspace*{\fill} $address$\\
-$endfor$
+$if(address)$
+	$for(address)$
+	\hspace*{\fill} $address$\\
+	$endfor$
+$endif$
 
 \vspace{-10pt}
 
