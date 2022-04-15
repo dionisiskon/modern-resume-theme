@@ -38,8 +38,8 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v2
       # action to deploy to GitHub Pages
       with:
-        target_branch: gh-pages
+        target_branch: gh-pages 
         build_dir: ./
         keep_history: true
       env:
-        GH_PAT: ${{ secrets.TOKEN }} # default secret for auth
+        GH_PAT: ${{ secrets.TOKEN }} # Get my Personal Access Token from Secrets
