@@ -43,7 +43,7 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/32637139.jpeg
-about_content: | # this will include new lines to allow paragraphs
+about_content: | # this will include new lines to allow paragraphs 
  Hello, I'm a graduate student at Ionian University. I have developed basic skills in a number of programming languages, particularly Python, through my years studying and by some experimentation in my spare time.
  I'm currently creating apps using Kodular, because of it's simplicity and appealness in creating mobile apps, and trying to get my masters degree as a whole. I have quite an interest in web scraping technology and I'm currently trying to integrate machine learning to make it faster and more self-reliant.
   
