@@ -94,10 +94,8 @@ $if(address)$
 	$for(address)$
 	\hspace*{\fill} $address$\\
 	$endfor$
-$endif$
-
-$if(!address)$
-vspace{20pt}
+$else$
+	\vspace{20pt}
 $endif$
 
 \vspace{-10pt}
